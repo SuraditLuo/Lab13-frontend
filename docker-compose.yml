@@ -3,4 +3,4 @@ services:
       web:
       image: "suraditluo/se331-lab13"
       ports:
-        -8001:89
+        -8001:80
