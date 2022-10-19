@@ -84,7 +84,7 @@ const routes = [
     }
   },
   {
-    path: '/auth',
+    path: '/login',
     name: 'Login',
     component: Login
   },
