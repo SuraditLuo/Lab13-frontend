@@ -29,9 +29,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/se331-lab13-frontend:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/se331-lab13:latest
       -
-        name: composing
+        name: prepare the docker compose run
         run: |
           mkdir se331-lab13-frontend
           cp docker-compose.yml se331-lab13-frontend/docker-compose.yml
